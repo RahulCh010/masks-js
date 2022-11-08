@@ -27,6 +27,11 @@ const testSamples = [
     expectedResult: '(543) 126-0987',
     description: 'should return (543) 126-0987',
   },
+  {
+    input: 123456,
+    expectedResult: null,
+    description: 'should return null value when paramter is not of type string',
+  },
 ];
 
 describe('Array', () => {
